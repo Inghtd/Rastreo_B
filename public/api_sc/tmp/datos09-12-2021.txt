@@ -1,0 +1,30 @@
+<2021/12/09 17:09:50> barra lectura <------>A00570036E010139 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 41303035373030333645303130313339
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/09 17:09:50> barra lectura <------>A00220036E030086 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 41303032323030333645303330303836
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/09 17:09:50> barra lectura <------>BA10000000000458 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 42413130303030303030303030343538
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+

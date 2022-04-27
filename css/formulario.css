@@ -1,0 +1,127 @@
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+p, h1, form, button{border:0; margin:0; padding:0;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:400px;
+padding:20px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #595959;
+background:#F1F1F1;
+}
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:14px;
+color:#000000;
+margin-bottom:20px;
+border-bottom:solid 1px #595959;
+padding-bottom:10px;
+font-weight:bold;
+}
+
+.textorojo { 
+font-family: Arial;
+font-size:14px;
+font-style: normal;
+font-weight: bold;
+margin-bottom:20px;
+color: #CC0000;
+padding-bottom:10px;
+font-weight:bold;
+}
+ 
+.textoazul { 
+font-family: Arial;
+font-size:14px;
+font-style: normal;
+font-weight: bold;
+margin-bottom:20px;
+color: #0000FF;
+padding-bottom:10px;
+font-weight:bold;
+} 
+
+
+#stylized label{
+display:block;
+font-size:12px;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized input{
+float:left;
+font-size:13px;
+padding:4px 2px;
+border:solid 1px #595959;
+width:200px;
+margin:2px 0 20px 10px;
+}
+
+#stylized select{
+float:left;
+font-size:13px;
+padding:4px 2px;
+border:solid 1px #595959;
+width:200px;
+margin:2px 0 20px 10px;
+background:white;
+}
+
+#stylized select.fecha{
+float:left;
+font-size:10px;
+padding:2px 2px;
+border:solid 1px #595959;
+width:50px;
+margin:2px 0 20px 10px;
+background:white;
+}
+
+
+#stylized submit{
+clear:both;
+/*margin-left:150px;*/
+margin:0 auto;
+width:125px;
+height:31px;
+background:#C80000 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+#stylized button{
+clear:both;
+/*margin-left:150px;*/
+margin:0 auto;
+width:125px;
+height:31px;
+background:#C80000 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}

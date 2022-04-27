@@ -1,0 +1,180 @@
+<2021/12/05 14:24:19> barra lectura <------>TEST1000002 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 5445535431303030303032
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:24:19> barra lectura <------>TEST1000003TEST1000001 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 54455354313030303030335445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:24:19> barra lectura <------>TEST1000001 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:25:27> barra lectura <------>TEST1000002 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 5445535431303030303032
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:25:27> barra lectura <------>TEST1000003 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 5445535431303030303033
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:25:27> barra lectura <------>TEST1000001 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:27:49> barra lectura <------>TEST1000002 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303032
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:27:49> barra lectura <------>TEST1000003 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303033
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:27:49> barra lectura <------>TEST1000001 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:28:47> barra lectura <------>TEST1000002 proceso <------>Escaneo Despacho-2
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303032
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:28:47> barra lectura <------>TEST1000003 proceso <------>Escaneo Despacho-2
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303033
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:28:47> barra lectura <------>TEST1000001 proceso <------>Escaneo Despacho-2
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:29:34> barra lectura <------>TEST1000002 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303032
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:29:35> barra lectura <------>TEST1000003 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303033
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:29:35> barra lectura <------>TEST1000001 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:30:12> barra lectura <------>TEST1000002 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303032
+    [pc] => 3000
+    [codigo] => TEST1000002
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:30:12> barra lectura <------>TEST1000003 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303033
+    [pc] => 3000
+    [codigo] => TEST1000003
+    [isHeartBeat] => false
+)
+
+<2021/12/05 14:30:12> barra lectura <------>TEST1000001 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+

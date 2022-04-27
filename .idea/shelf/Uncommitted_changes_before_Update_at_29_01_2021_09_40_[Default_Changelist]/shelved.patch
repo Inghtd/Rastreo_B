@@ -1,0 +1,500 @@
+Index: sistema/vista/repor_ingresos1.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\ninclude(\"reporte_ingresos.php\");\r\n\r\n$x1= new model_con();\r\n\r\n$x2=$x1->reporte_n();\r\n\r\n//print_r($x2);\r\n\r\n?>\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n  <title>AdminLTE 3 | Log in</title>\r\n  <!-- Tell the browser to be responsive to screen width -->\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n\r\n  <!-- Font Awesome -->\r\n  <link rel=\"stylesheet\" href=\"plugins/fontawesome-free/css/all.min.css\">\r\n  <!-- Ionicons -->\r\n  <link rel=\"stylesheet\" href=\"https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css\">\r\n  <!-- icheck bootstrap -->\r\n  <link rel=\"stylesheet\" href=\"plugins/icheck-bootstrap/icheck-bootstrap.min.css\">\r\n  <!-- Theme style -->\r\n  <link rel=\"stylesheet\" href=\"dist/css/adminlte.min.css\">\r\n  <!-- Google Font: Source Sans Pro -->\r\n  <link href=\"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n<!-- Content Wrapper. Contains page content -->\r\n<div class=\"content-wrapper\">\r\n  <!-- Content Header (Page header) -->\r\n  <section class=\"content-header\">\r\n    <div class=\"container-fluid\">\r\n      <div class=\"row mb-2\">\r\n        <div class=\"col-sm-6\">\r\n          <h1>Mantenimiento de Mensajero</h1>\r\n        </div>\r\n        <div class=\"col-sm-6\">\r\n          <ol class=\"breadcrumb float-sm-right\">\r\n            <li class=\"breadcrumb-item\"><a href=\"#\">Inicio</a></li>\r\n            <li class=\"breadcrumb-item active\">Formulario de ingreso de mensajero</li>\r\n          </ol>\r\n        </div>\r\n      </div>\r\n    </div><!-- /.container-fluid -->\r\n    <table id=\"table_id\" class=\"display\" border=\"1\">\r\n      <thead>\r\n      <tr>\r\n        <th>Transaccion</th>\r\n        <th>Remitente</th>\r\n        <th>destinatario</th>\r\n        <th>zona</th>\r\n        <th>Centro de Costo</th>\r\n        <th>Categoria</th>\r\n        <th>Estado</th>\r\n        <th>mensajero</th>\r\n        <th>consulta</th>\r\n        <th>reimprecion</th>\r\n      </tr>\r\n      </thead>\r\n      <tbody>\r\n      <?php\r\n      foreach($x2 as $row){\r\n        echo \"<tr><td>\".$row->barra.\"</td>\r\n                    <td>\".$row->remitente.\"</td>\r\n                    <td>\".$row->destinatario.\"</td>\r\n                    <td>\".$row->direccion.\"</td>\r\n                     <td>\".$row->centro_costo.\"</td>\r\n                    <td>\".$row->categoria.\"</td>\r\n                    <td>\".$row->estado.\"</td>\r\n                    <td>\".$row->mensajero.\"</td>\r\n                    <td>Consulta</td>\r\n                    <td><a href='#'>Reimprecion</a></td>\r\n\r\n</tr>\";\r\n      }\r\n      ?>\r\n      </tbody>\r\n    </table>\r\n    <script>$(document).ready( function () {\r\n        $('#table_id').DataTable();\r\n      } );\r\n    </script>\r\n\r\n\r\n    <!-- jQuery -->\r\n    <script src=\"vista/plugins/jquery/jquery.min.js\"></script>\r\n    <!-- Bootstrap 4 -->\r\n    <script src=\"vista/plugins/bootstrap/js/bootstrap.bundle.min.js\"></script>\r\n    <!-- AdminLTE App -->\r\n    <script src=\"vista/dist/js/adminlte.min.js\"></script>\r\n\r\n\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sistema/vista/repor_ingresos1.php b/sistema/vista/repor_ingresos1.php
+--- a/sistema/vista/repor_ingresos1.php	(revision 95e9ecbfe14628d2c342ca271f08d16a9b75f6dd)
++++ b/sistema/vista/repor_ingresos1.php	(date 1611934206984)
+@@ -9,27 +9,39 @@
+ 
+ ?>
+ 
+-<!DOCTYPE html>
+-<html>
+-<head>
+-  <meta charset="utf-8">
+-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+-  <title>AdminLTE 3 | Log in</title>
+-  <!-- Tell the browser to be responsive to screen width -->
+-  <meta name="viewport" content="width=device-width, initial-scale=1">
++<!-- jQuery -->
++<script src="vista/plugins/jquery/jquery.min.js"></script>
++<!-- Bootstrap 4 -->
++<script src="vista/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
++<!-- ChartJS -->
++<script src="vista/plugins/chart.js/Chart.min.js"></script>
++<!-- AdminLTE App -->
++<script src="vista/dist/js/adminlte.min.js"></script>
++<!-- AdminLTE for demo purposes -->
++<!--<script src="vista/dist/js/demo.js"></script>-->
++<!-- daterange picker -->
++<link rel="stylesheet" href="vista/plugins/daterangepicker/daterangepicker.css">
++<!-- InputMask -->
++<script src="vista/plugins/moment/moment.min.js"></script>
++<script src="vista/plugins/inputmask/min/jquery.inputmask.bundle.min.js"></script>
++<!-- date-range-picker -->
++<script src="vista/plugins/daterangepicker/daterangepicker.js"></script>
+ 
+-  <!-- Font Awesome -->
+-  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+-  <!-- Ionicons -->
+-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+-  <!-- icheck bootstrap -->
+-  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+-  <!-- Theme style -->
+-  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+-  <!-- Google Font: Source Sans Pro -->
+-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+-</head>
+-<body>
++
++<link rel="stylesheet" href="vista/plugins/fontawesome-free/css/all.min.css">
++<!-- DataTables -->
++<link rel="stylesheet" href="vista/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
++<link rel="stylesheet" href="vista/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
++<link rel="stylesheet" href="vista/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
++<!-- Theme style -->
++<link rel="stylesheet" href="vista/dist/css/adminlte.min.css">
++
++<script>
++
++  let hoy = new Date();
++
++</script>
++
+ <!-- Content Wrapper. Contains page content -->
+ <div class="content-wrapper">
+   <!-- Content Header (Page header) -->
+@@ -37,29 +49,116 @@
+     <div class="container-fluid">
+       <div class="row mb-2">
+         <div class="col-sm-6">
+-          <h1>Mantenimiento de Mensajero</h1>
++          <h1>Reporte de envios</h1>
+         </div>
+         <div class="col-sm-6">
+           <ol class="breadcrumb float-sm-right">
+-            <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+-            <li class="breadcrumb-item active">Formulario de ingreso de mensajero</li>
++            <li class="breadcrumb-item"><a href="#"></a></li>
++            <li class="breadcrumb-item active"></li>
+           </ol>
+         </div>
+       </div>
+     </div><!-- /.container-fluid -->
+-    <table id="table_id" class="display" border="1">
++
++
++    <div class=" col-sm-12 card-navy">
++      <div class="row mb-2">
++        <div class="col-sm-6">
++
++
++
++
++          <label>Selecciona el periodo:</label>
++          <div class="input-group-prepend">
++
++            <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
++            <input type="text" name="daterange"  class="form-control float-right" value=document.write(hoy) + - + document.write(hoy)/>
++          </div>
++
++
++        </div>
++
++
++      </div>
++
++    </div>
++
++<div class="card-body">
++  <div class="col-sm-12 col-md-6">
++    <div class="dt-buttons btn-group flex-wrap">
++      <button class="btn btn-secondary buttons-copy buttons-html5" tabindex="0" aria-controls="example1" type="button">
++        <span>Copy</span></button>
++      <button class="btn btn-secondary buttons-csv buttons-html5" tabindex="0" aria-controls="example1" type="button">
++        <span>CSV</span></button>
++      <button class="btn btn-secondary buttons-excel buttons-html5" tabindex="0" aria-controls="example1" type="button">
++        <span>Excel</span>
++      </button> <button class="btn btn-secondary buttons-pdf buttons-html5" tabindex="0" aria-controls="example1" type="button">
++        <span>PDF</span></button>
++      <button class="btn btn-secondary buttons-print" tabindex="0" aria-controls="example1" type="button">
++        <span>Print</span></button>
++      <div class="btn-group"><button class="btn btn-secondary buttons-collection dropdown-toggle buttons-colvis" tabindex="0" aria-controls="example1" type="button" aria-haspopup="true" aria-expanded="false">
++          <span>Column visibility</span></button>
++      </div> </div></div><div class="col-sm-12 col-md-6">
++    <div id="example1_filter" class="dataTables_filter">
++      <label>Search:<input type="search" class="form-control form-control-sm" placeholder="" aria-controls="example1"></label>
++    </div></div>
++
++  <div class="row">
++    <div class="col-sm-12">
++
++    <table id="example1" class="table table-bordered table-striped dataTable dtr-inline" role="grid" aria-describedby="example_info">
+       <thead>
+-      <tr>
+-        <th>Transaccion</th>
+-        <th>Remitente</th>
+-        <th>destinatario</th>
+-        <th>zona</th>
+-        <th>Centro de Costo</th>
+-        <th>Categoria</th>
+-        <th>Estado</th>
+-        <th>mensajero</th>
+-        <th>consulta</th>
+-        <th>reimprecion</th>
++      <tr role="row">
++        <th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Numero de Transaccion">
++          ::before
++          Transaccion
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Remitente
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          destinatario
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Zona
++        ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Centro de Costo
++        ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Categoria
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Estado
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Mensajero
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Consulta
++          ::after
++        </th>
++        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending">
++          ::before
++          Reimprecion
++          ::after
++        </th>
+       </tr>
+       </thead>
+       <tbody>
+@@ -73,14 +172,66 @@
+                     <td>".$row->categoria."</td>
+                     <td>".$row->estado."</td>
+                     <td>".$row->mensajero."</td>
+-                    <td>Consulta</td>
+-                    <td><a href='#'>Reimprecion</a></td>
++                    <td><a href='#'>Consulta</a></td>
++                    <td><a href='#'>Reimpresión</a></td>
+ 
+ </tr>";
+       }
+       ?>
++      <tfoot>
++        <tr>
++          <th rowspan="1" colspan="1">Transaccion</th>
++          <th rowspan="1" colspan="1">Remitente</th>
++          <th rowspan="1" colspan="1">Destinatario</th>
++          <th rowspan="1" colspan="1">Zona</th>
++          <th rowspan="1" colspan="1">Centro de costo</th>
++          <th rowspan="1" colspan="1">Categoria</th>
++          <th rowspan="1" colspan="1">Estado</th>
++          <th rowspan="1" colspan="1">Mensajero</th>
++          <th rowspan="1" colspan="1">Consulta</th>
++          <th rowspan="1" colspan="1">Reinprecion</th>
++
++        </tr>
++      </tfoot>
++
+       </tbody>
+     </table>
++    </div>
++  </div>
++</div>
++    <div class="col-sm-12 col-md-5">
++      <div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries
++      </div>
++    </div>
++    <div class="col-sm-12 col-md-7">
++      <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
++        <ul class="pagination">
++          <li class="paginate_button page-item previous disabled" id="example1_previous">
++            <a href="#" aria-controls="example1" data-dt-idx="0" tabindex="0" class="page-link">Previous</a>
++          </li>
++          <li class="paginate_button page-item active">
++            <a href="#" aria-controls="example1" data-dt-idx="1" tabindex="0" class="page-link">1</a>
++          </li>
++          <li class="paginate_button page-item ">
++            <a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0" class="page-link">2</a>
++          </li>
++          <li class="paginate_button page-item ">
++            <a href="#" aria-controls="example1" data-dt-idx="3" tabindex="0" class="page-link">3</a>
++          </li><li class="paginate_button page-item ">
++            <a href="#" aria-controls="example1" data-dt-idx="4" tabindex="0" class="page-link">4</a>
++          </li>
++          <li class="paginate_button page-item ">
++            <a href="#" aria-controls="example1" data-dt-idx="5" tabindex="0" class="page-link">5</a>
++          </li>
++          <li class="paginate_button page-item ">
++            <a href="#" aria-controls="example1" data-dt-idx="6" tabindex="0" class="page-link">6</a>
++          </li>
++          <li class="paginate_button page-item next" id="example1_next">
++            <a href="#" aria-controls="example1" data-dt-idx="7" tabindex="0" class="page-link">Next</a>
++          </li></ul>
++      </div>
++    </div>
++
+     <script>$(document).ready( function () {
+         $('#table_id').DataTable();
+       } );
+@@ -91,9 +242,43 @@
+     <script src="vista/plugins/jquery/jquery.min.js"></script>
+     <!-- Bootstrap 4 -->
+     <script src="vista/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
++    <!-- DataTables  & Plugins -->
++    <script src="vista/plugins/datatables/jquery.dataTables.min.js"></script>
++    <script src="vista/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
++    <script src="vista/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
++    <script src="vista/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
++    <script src="vista/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
++    <script src="vista/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
++    <script src="vista/plugins/jszip/jszip.min.js"></script>
++    <script src="vista/plugins/pdfmake/pdfmake.min.js"></script>
++    <script src="vista/plugins/pdfmake/vfs_fonts.js"></script>
++    <script src="vista/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
++    <script src="vista/plugins/datatables-buttons/js/buttons.print.min.js"></script>
++    <script src="vista/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+     <!-- AdminLTE App -->
+     <script src="vista/dist/js/adminlte.min.js"></script>
+-
++    <!-- AdminLTE for demo purposes -->
++    <script src="vista/dist/js/demo.js"></script>
++    <!-- Page specific script -->
++    <script>
++      $(function () {
++        $("#example1").DataTable({
++          "responsive": true, "lengthChange": false, "autoWidth": false,
++          "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
++        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
++        $('#example2').DataTable({
++          "paging": true,
++          "lengthChange": false,
++          "searching": false,
++          "ordering": true,
++          "info": true,
++          "autoWidth": false,
++          "responsive": true,
++        });
++      });
++    </script>
++  </section>
++</div>
+ 
+ </body>
+ </html>
+Index: sistema/vista/menu.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n$shi_codigo=$_SESSION['shi_codigo'];\r\n$shi_nombre=strtoupper($_SESSION['cod_usuario']);\r\n\r\ndate_default_timezone_set('America/El_Salvador');\r\n?>\r\n\r\n<!--Menu Procesos-->\r\n<li class=\"nav-item has-treeview\">\r\n  <a href=\"#\" class=\"nav-link\">\r\n    <i class=\"nav-icon fas fa-ellipsis-h\"></i>\r\n    <p>\r\n      Procesos\r\n      <i class=\"fas fa-angle-left right\"></i>\r\n    </p>\r\n  </a>\r\n  <ul class=\"nav nav-treeview\">\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=guia&accion=ingreso'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Ingreso de Gu&iacute;as</p>\r\n      </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=proc&accion=os'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Orden de Servicio</p>\r\n      </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=proc&accion=ar'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Arribo - AR</p>\r\n      </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=proc&accion=ld'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Salida a Ruta - LD</p>\r\n      </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=proc&accion=dl'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Entregas - DL</p>\r\n      </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=proc&accion=dv'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Devoluciones - DV</p>\r\n      </a>\r\n    </li>\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=proc&accion=carga_xls'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Carga Base Envios</p>\r\n      </a>\r\n    </li>\r\n  \r\n  </ul>\r\n</li>\r\n<!--Menu Consultas-->\r\n<li class=\"nav-item has-treeview\">\r\n  <a href=\"#\" class=\"nav-link\">\r\n    <i class=\"nav-icon fas fa-search \"></i>\r\n    <p>\r\n      Consultas\r\n      <i class=\"fas fa-angle-left right\"></i>\r\n    </p>\r\n  </a>\r\n  <ul class=\"nav nav-treeview\">\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=movimientos'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Consulta de movimientos</p>\r\n      </a>\r\n    </li>\r\n\r\n\r\n  </ul>\r\n</li>\r\n<!--Menu Reportes-->\r\n<li class=\"nav-item has-treeview\">\r\n  <a href=\"#\" class=\"nav-link\">\r\n    <i class=\"nav-icon far fa-copy\"></i>\r\n    <p>\r\n      Reportes e Informes\r\n      <i class=\"fas fa-angle-left right\"></i>\r\n    </p>\r\n  </a>\r\n  <ul class=\"nav nav-treeview\">\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=informe1'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Informe general</p>\r\n      </a>\r\n    </li>\r\n\r\n\r\n  </ul>\r\n</li>\r\n<!--Menu Mantenimientos-->\r\n<li class=\"nav-item has-treeview\">\r\n  <a href=\"#\" class=\"nav-link\">\r\n    <i class=\"nav-icon far fa-edit\"></i>\r\n    <p>\r\n      Mantenimiento\r\n      <i class=\"fas fa-angle-left right\"></i>\r\n    </p>\r\n  </a>\r\n  <ul class=\"nav nav-treeview\">\r\n\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=mant&accion=agencias'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Agencias</p>\r\n      </a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=mant&accion=ccostos'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Centros de Costos</p>\r\n      </a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=mant&accion=zonas'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Zonas</p>\r\n      </a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=mant&accion=mensajero'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Mensajeros</p>\r\n      </a>\r\n    </li>\r\n    <li class=\"nav-item\">\r\n      <a class=\"nav-link\" href='index.php?prc=mant&accion=usuarios'>\r\n        <i class=\"far fa-circle nav-icon\"></i>\r\n        <p>Usuarios</p>\r\n      </a>\r\n    </li>\r\n\r\n  </ul>\r\n</li>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sistema/vista/menu.php b/sistema/vista/menu.php
+--- a/sistema/vista/menu.php	(revision 95e9ecbfe14628d2c342ca271f08d16a9b75f6dd)
++++ b/sistema/vista/menu.php	(date 1611930406422)
+@@ -1,4 +1,4 @@
+-<?php
++i<?php
+ $shi_codigo=$_SESSION['shi_codigo'];
+ $shi_nombre=strtoupper($_SESSION['cod_usuario']);
+ 
+@@ -97,6 +97,13 @@
+   </a>
+   <ul class="nav nav-treeview">
+ 
++    <li class="nav-item">
++      <a class="nav-link" href='index.php?prc=repor_ingresos1'>
++        <i class="far fa-circle nav-icon"></i>
++        <p>Reporte de envios</p>
++      </a>
++    </li>
++
+     <li class="nav-item">
+       <a class="nav-link" href='index.php?prc=informe1'>
+         <i class="far fa-circle nav-icon"></i>
+Index: public/api/envios.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\n        $a=array(\r\n            [\r\n              'idPedido'=> random_int(0,100),\r\n              'idRequest'=>\"2\",\r\n              'quantity'=>0,\r\n              'total'=>0.0,\r\n              'name' =>'Roberto scamilla',\r\n              'address' =>'zona 12',\r\n              'wayToPay'=>\"Tarjeta\",\r\n              'createdAt'=>\"2021-01-28T09:53:00\",\r\n              'requestId'=>\"1\",\r\n              'comments'=>\"tarjeta visa\",\r\n              'additionalShops'=>\"\",\r\n              'vuelto'=>\"\",\r\n              'recipe'=>\"\",\r\n              'insuranceId'=>0,\r\n              'nit'=>\"\",\r\n              'cliId'=>\"\",\r\n              'char1'=>\"Altos de Verapaz zona 15, Ciudad de Guatemala\",\r\n              'estado'=>0,\r\n            ],\r\n            [\r\n                'idPedido'=> random_int(101,200),\r\n                'idRequest'=>\"3\",\r\n                'quantity'=>0,\r\n                'total'=>0.0,\r\n                'name' =>'JOSE PEREZ',\r\n                'address' =>'zóna 12',\r\n                'wayToPay'=>\"Tarjeta\",\r\n                'createdAt'=>\"2021-01-28T09:54:00\",\r\n                'requestId'=>\"1\",\r\n                'comments'=>\"tarjeta visa\",\r\n                'additionalShops'=>\"\",\r\n                'vuelto'=>\"\",\r\n                'recipe'=>\"\",\r\n                'insuranceId'=>0,\r\n                'nit'=>\"\",\r\n                'cliId'=>\"\",\r\n                'char1'=>\"Arkadia Nivel 1 Departamento de Seguridad de datos\",\r\n                'estado'=>0,\r\n            ],\r\n            [\r\n                'idPedido'=> random_int(201,300),\r\n                'idRequest'=>\"4\",\r\n                'quantity'=>0,\r\n                'total'=>0.0,\r\n                'name' =>'JUAN GONZALEZ',\r\n                'address' =>'zóna 12',\r\n                'wayToPay'=>\"Tarjeta\",\r\n                'createdAt'=>\"2021-01-28T08:55:00\",\r\n                'requestId'=>\"1\",\r\n                'comments'=>\"tarjeta visa\",\r\n                'additionalShops'=>\"\",\r\n                'vuelto'=>\"\",\r\n                'recipe'=>\"\",\r\n                'insuranceId'=>0,\r\n                'nit'=>\"\",\r\n                'cliId'=>\"\",\r\n                'char1'=>\"Agencia Zona 9 Anexo nivel 2\",\r\n                'estado'=>0,\r\n            ],\r\n            [\r\n                'idPedido'=> random_int(301,400),\r\n                'idRequest'=>\"5\",\r\n                'quantity'=>0,\r\n                'total'=>0.0,\r\n                'name' =>'MARIO MARTINEZ',\r\n                'address' =>'zóna 12',\r\n                'wayToPay'=>\"Tarjeta\",\r\n                'createdAt'=>\"2021-01-28T07:35:00\",\r\n                'requestId'=>\"1\",\r\n                'comments'=>\"tarjeta visa\",\r\n                'additionalShops'=>\"\",\r\n                'vuelto'=>\"\",\r\n                'recipe'=>\"\",\r\n                'insuranceId'=>0,\r\n                'nit'=>\"\",\r\n                'cliId'=>\"\",\r\n                'char1'=>\"Primer nivel, Créditos y Cobros\",\r\n                'estado'=>0,\r\n            ],\r\n            [\r\n                'idPedido'=> random_int(401,500),\r\n                'idRequest'=>\"6\",\r\n                'quantity'=>0,\r\n                'total'=>0.0,\r\n                'name' =>'ABEL RAMOS',\r\n                'address' =>'zóna 12',\r\n                'wayToPay'=>\"Tarjeta\",\r\n                'createdAt'=>\"2021-01-28T10:20:15\",\r\n                'requestId'=>\"1\",\r\n                'comments'=>\"tarjeta visa\",\r\n                'additionalShops'=>\"\",\r\n                'vuelto'=>\"\",\r\n                'recipe'=>\"\",\r\n                'insuranceId'=>0,\r\n                'nit'=>\"\",\r\n                'cliId'=>\"\",\r\n                'char1'=>\"Edificio Arkadia Nivel 1 Gestión comercial\",\r\n                'estado'=>0,\r\n            ],\r\n\r\n        );\r\n    echo json_encode($a);\r\n?>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/public/api/envios.php b/public/api/envios.php
+--- a/public/api/envios.php	(revision 95e9ecbfe14628d2c342ca271f08d16a9b75f6dd)
++++ b/public/api/envios.php	(date 1611907076576)
+@@ -1,6 +1,7 @@
+ <?php
++        $id_usr=$_GET['id'];
+ 
+-        $a=array(
++        /*$a=array(
+             [
+               'idPedido'=> random_int(0,100),
+               'idRequest'=>"2",
+@@ -102,6 +103,9 @@
+                 'estado'=>0,
+             ],
+ 
+-        );
++        );*/
++
++
++
+     echo json_encode($a);
+ ?>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6\" name=\"Default Changelist\" comment=\"env\">\r\n      <change afterPath=\"$PROJECT_DIR$/sistema/vista/repor_ingresos1.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/sistema/vista/form_carga.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/sistema/vista/form_carga.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"origin/master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"development\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/league/flysystem\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/league/mime-type-detection\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/nesbot/carbon\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/ramsey/collection\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/ramsey/uuid\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/vlucas/phpdotenv\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/dnoegel/php-xdg-base-dir\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/egulias/email-validator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/laravel/framework\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/laravel/sail\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/laravel/tinker\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/mockery/mockery\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/monolog/monolog\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/myclabs/deep-copy\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phar-io/manifest\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phar-io/version\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpspec/prophecy\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-code-coverage\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-file-iterator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-invoker\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-text-template\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-timer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/phpunit\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/console\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/css-selector\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/deprecation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/error-handler\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/event-dispatcher-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/finder\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/http-client-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/http-foundation\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/http-kernel\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/mime\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-ctype\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-iconv\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-intl-idn\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-mbstring\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-php72\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-php73\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-php80\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/process\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/routing\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/service-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/string\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/translation\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/translation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/var-dumper\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/theseer/tokenizer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/doctrine/inflector\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/doctrine/instantiator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/doctrine/lexer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/fakerphp/faker\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/hamcrest/hamcrest-php\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/fideloper/proxy\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/fruitcake/laravel-cors\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpoption/phpoption\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/ralouphie/getallheaders\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/cli-parser\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/code-unit\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/comparator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/complexity\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/diff\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/environment\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/exporter\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/global-state\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/lines-of-code\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/object-enumerator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/object-reflector\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/recursion-context\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/resource-operations\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/type\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/version\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/webmozart/assert\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/guzzlehttp/guzzle\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/guzzlehttp/promises\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/guzzlehttp/psr7\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/nunomaduro/collision\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/swiftmailer/swiftmailer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/tijsverkoyen/css-to-inline-styles\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/dragonmantank/cron-expression\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpdocumentor/reflection-common\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpdocumentor/reflection-docblock\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpdocumentor/type-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/graham-campbell/result-type\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/container\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/http-client\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/http-message\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/log\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/simple-cache\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psy/psysh\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/filp/whoops\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/opis/closure\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/voku/portable-ascii\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/asm89/stack-cors\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/brick/math\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/nikic/php-parser\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/facade/flare-client-php\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/facade/ignition\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/facade/ignition-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/league/commonmark\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1lrOzb6MmesgRMqSTaoMF1lbzUe\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"ChangesTree.GroupingKeys\" value=\"\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/public/api\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.standard\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.standard\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.standard\" value=\"\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\xampp\\htdocs\\rastreoMG\\public\\api\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\rastreoMG\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\rastreoMG\\sistema\\vista\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\xampp\\htdocs\\proyectos\\rastreo\\sistema\\vista\\reporte_1.php\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1608352006529</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1608352006529</updated>\r\n      <workItem from=\"1608352009853\" duration=\"5824000\" />\r\n      <workItem from=\"1608570733656\" duration=\"12959000\" />\r\n      <workItem from=\"1608741308922\" duration=\"10254000\" />\r\n      <workItem from=\"1608999619331\" duration=\"7935000\" />\r\n      <workItem from=\"1609342303301\" duration=\"21096000\" />\r\n      <workItem from=\"1609884549289\" duration=\"23112000\" />\r\n      <workItem from=\"1610139620073\" duration=\"31043000\" />\r\n      <workItem from=\"1610555861261\" duration=\"2228000\" />\r\n      <workItem from=\"1610627832255\" duration=\"704000\" />\r\n      <workItem from=\"1610719082630\" duration=\"5512000\" />\r\n      <workItem from=\"1610906346114\" duration=\"5007000\" />\r\n      <workItem from=\"1611021460052\" duration=\"6326000\" />\r\n      <workItem from=\"1611065655977\" duration=\"18607000\" />\r\n      <workItem from=\"1611325558378\" duration=\"2511000\" />\r\n      <workItem from=\"1611533163086\" duration=\"1305000\" />\r\n      <workItem from=\"1611796594229\" duration=\"7598000\" />\r\n      <workItem from=\"1611845447161\" duration=\"1869000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test1\">\r\n      <created>1608352414484</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608352414484</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test1\">\r\n      <created>1608352431387</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608352431387</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Corrección agencias\">\r\n      <created>1608397677312</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608397677312</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Corrección formulario guias\">\r\n      <created>1608668077408</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608668077408</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"arv1\">\r\n      <created>1608749397758</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608749397758</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"arv1\">\r\n      <created>1608782836845</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608782836846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"arv2\">\r\n      <created>1609007981080</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609007981080</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"mov1\">\r\n      <created>1609364545717</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609364545717</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"mov1.1\">\r\n      <created>1609547219633</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609547219649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"informe1\">\r\n      <created>1609974494695</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609974494695</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"informe1.1\">\r\n      <created>1609975524055</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609975524055</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"informe1.2\">\r\n      <created>1610141158986</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610141158986</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"debug1\">\r\n      <created>1610314959533</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610314959533</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"debug2\">\r\n      <created>1610378751649</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610378751649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Cambios Xajax 1\">\r\n      <created>1610731104164</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610731104164</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Cambios Xajax 2\">\r\n      <created>1611025976995</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611025976995</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Cambios Xajax 2\">\r\n      <created>1611027086769</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611027086769</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Cambios Xajax 3\">\r\n      <created>1611028328365</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611028328365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Cambios Xajax 3\">\r\n      <created>1611091073865</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611091073865</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Cambios Xajax 3\">\r\n      <created>1611091156757</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611091156757</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"Cambios informe1.3\">\r\n      <created>1611094928482</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611094928482</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"Cambios informe1.3\">\r\n      <created>1611098410991</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611098410991</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"Cambios informe1.3\">\r\n      <created>1611098560746</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611098560746</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"Cambios login1\">\r\n      <created>1611797809872</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611797809872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"Cambios login2\">\r\n      <created>1611799324938</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611799324938</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"Cambios login3\">\r\n      <created>1611800170409</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611800170409</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"Cambios api1\">\r\n      <created>1611802105592</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611802105592</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"Cambios api1\">\r\n      <created>1611803560398</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611803560398</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"Cambios api2\">\r\n      <created>1611845473042</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611845473042</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"Cambios api2\">\r\n      <created>1611846570376</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611846570376</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"Cambios informe1.3\">\r\n      <created>1611867596550</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611867596550</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"cambio de usuarios\">\r\n      <created>1611870370017</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611870370017</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"env\">\r\n      <created>1611898926941</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611898926941</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"34\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"development\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"master\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"origin/development\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"test1\" />\r\n    <MESSAGE value=\"Corrección agencias\" />\r\n    <MESSAGE value=\"Corrección formulario guias\" />\r\n    <MESSAGE value=\"arv1\" />\r\n    <MESSAGE value=\"arv2\" />\r\n    <MESSAGE value=\"mov1\" />\r\n    <MESSAGE value=\"mov1.1\" />\r\n    <MESSAGE value=\"informe1\" />\r\n    <MESSAGE value=\"informe1.1\" />\r\n    <MESSAGE value=\"informe1.2\" />\r\n    <MESSAGE value=\"debug1\" />\r\n    <MESSAGE value=\"debug2\" />\r\n    <MESSAGE value=\"Cambios Xajax 1\" />\r\n    <MESSAGE value=\"Cambios Xajax 2\" />\r\n    <MESSAGE value=\"Cambios Xajax 3\" />\r\n    <MESSAGE value=\"Cambios login1\" />\r\n    <MESSAGE value=\"Cambios login2\" />\r\n    <MESSAGE value=\"Cambios login3\" />\r\n    <MESSAGE value=\"Cambios api1\" />\r\n    <MESSAGE value=\"Cambios api2\" />\r\n    <MESSAGE value=\"Cambios informe1.3\" />\r\n    <MESSAGE value=\"cambio de usuarios\" />\r\n    <MESSAGE value=\"env\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"env\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/sistema/vista/funciones.js</url>\r\n          <line>225</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 95e9ecbfe14628d2c342ca271f08d16a9b75f6dd)
++++ b/.idea/workspace.xml	(date 1611934740340)
+@@ -1,10 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6" name="Default Changelist" comment="env">
+-      <change afterPath="$PROJECT_DIR$/sistema/vista/repor_ingresos1.php" afterDir="false" />
++    <list default="true" id="cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6" name="Default Changelist" comment="login y db service">
++      <change afterPath="$PROJECT_DIR$/sistema/prg/repor_ingresos1.php" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/sistema/vista/form_carga.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/vista/form_carga.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/API-Rastreo/app/Http/Controllers/Usr.php" beforeDir="false" afterPath="$PROJECT_DIR$/API-Rastreo/app/Http/Controllers/Usr.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/api/envios.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/envios.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/api/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/login.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sistema/vista/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/vista/menu.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/sistema/vista/repor_ingresos1.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/vista/repor_ingresos1.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -448,7 +452,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1611898926941</updated>
+     </task>
+-    <option name="localTasksCounter" value="34" />
++    <task id="LOCAL-00034" summary="env">
++      <created>1611899401638</created>
++      <option name="number" value="00034" />
++      <option name="presentableId" value="LOCAL-00034" />
++      <option name="project" value="LOCAL" />
++      <updated>1611899401638</updated>
++    </task>
++    <task id="LOCAL-00035" summary="login y db service">
++      <created>1611934422475</created>
++      <option name="number" value="00035" />
++      <option name="presentableId" value="LOCAL-00035" />
++      <option name="project" value="LOCAL" />
++      <updated>1611934422475</updated>
++    </task>
++    <option name="localTasksCounter" value="36" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -523,7 +541,8 @@
+     <MESSAGE value="Cambios informe1.3" />
+     <MESSAGE value="cambio de usuarios" />
+     <MESSAGE value="env" />
+-    <option name="LAST_COMMIT_MESSAGE" value="env" />
++    <MESSAGE value="login y db service" />
++    <option name="LAST_COMMIT_MESSAGE" value="login y db service" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: sistema/prg/repor_ingresos1.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/sistema/prg/repor_ingresos1.php b/sistema/prg/repor_ingresos1.php
+new file mode 100644
+--- /dev/null	(date 1611930879010)
++++ b/sistema/prg/repor_ingresos1.php	(date 1611930879010)
+@@ -0,0 +1,20 @@
++<?php
++class repor_ingresos1{
++
++    public function index(){
++        session_start();
++        if(!empty($_SESSION['cod_usuario']))
++        {
++            //require('../class/cab.php');
++            include('vista/inicio.php');
++            include('vista/repor_ingresos1.php');
++            include('vista/inicio_pie.php');
++        }
++        else
++        {
++            echo "Debes iniciar session";
++        }
++
++    }
++
++}
+\ No newline at end of file
+Index: API-Rastreo/app/Http/Controllers/Usr.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\n\r\nnamespace App\\Http\\Controllers;\r\n\r\nuse Illuminate\\Http\\Request;\r\nuse DB;\r\nuse Response;\r\n\r\nclass Usr extends Controller\r\n{\r\n    public function wel(){\r\n        ini_set('display_errors', 1);\r\n\r\n        ini_set('display_startup_errors', 1);\r\n\r\n        error_reporting(E_ALL);\r\n        //$sql = \"SHOW TABLES FROM rastreo\";\r\n        //$sql = \"select * from agencia\";\r\n        //$sql = \"select * from categoria\";\r\n        //$sql = \"select * from centro_costo\";\r\n        //$sql = \"select * from chk_id\";\r\n        //$sql = \"select * from cliente\";\r\n        //$sql = \"select * from correlativo\";\r\n        //$sql = \"select * from guia\";\r\n        //$sql = \"select * from manifiesto\";\r\n        //$sql = \"select * from manifiesto_linea  where id_envio=92\";\r\n        $sql = \"select * from mensajero\";\r\n        //$sql = \"select * from motivo\";\r\n        //$sql = \"select * from movimiento where id_movimiento=(select max(id_movimiento) from movimiento where id_envio=65)\";\r\n        //$sql = \"select * from orden\";\r\n        //$sql = \"select * from recurso\";\r\n        //$sql = \"select * from usuario\";\r\n        //$sql = \"select * from zona\";\r\n\r\n        $datos=DB::select($sql);\r\n        return $datos;\r\n\r\n        $token= csrf_token();\r\n        echo $token;\r\n    }\r\n\r\n    //inicio de sesion de usurio api.\r\n    public function login(Request $request)\r\n    {\r\n        $user=trim($request->input('usr'));\r\n        $pass=trim($request->input('pass'));\r\n        $datos=DB::table('usuario')\r\n                    ->join('cliente','cliente.cli_id','usuario.cli_codigo')\r\n                    ->join('centro_costo','centro_costo.id_ccosto','usuario.id_ccosto')\r\n        ->select(\r\n                'usuario.id_usr',\r\n                'usuario.usr_cod',\r\n                'usuario.usr_pass',\r\n                'usuario.usr_nombre',\r\n                'usuario.cli_codigo',\r\n                'usuario.id_grupo',\r\n                'usuario.nivel',\r\n                'usuario.depto',\r\n                'usuario.id_ccosto',\r\n                'usuario.area',\r\n                'usuario.producto',\r\n                'usuario.posicion',\r\n                'usuario.estado',\r\n                'usuario.dias_vencimiento',\r\n                'cliente.cli_nombre',\r\n                'cliente.cli_direccion',\r\n                'centro_costo.ccosto_codigo',\r\n                'centro_costo.ccosto_nombre',\r\n                'centro_costo.ccosto_telefono',\r\n        )->where('usuario.usr_cod','=',$user)\r\n         ->where('usuario.usr_pass','=',md5($pass)\r\n         )->get();\r\n\r\n         return $datos;\r\n    }\r\n\r\n    public function cambio()\r\n    {\r\n\r\n        return View('change_password');\r\n        /*/enviagt\r\n        $usr = $request->input('usr');\r\n        //$pass = $request->input('pass');\r\n        $newpass= md5($request->input('newpass'));\r\n\r\n        $affected = DB::table()\r\n                        ->where('usr_cod','=',$usr)\r\n                        ->update(['usr_pass' => $newpass]);\r\n\r\n        return $affected;\r\n        */\r\n    }\r\n    public function cambio_p(Request $request)\r\n    {\r\n        $usr = $request->input('usr');\r\n        $pass = md5($request->input('clave1'));\r\n\r\n        //echo $usr.\"----->\".$pass;\r\n       $newpass= md5($request->input('clave2'));\r\n\r\n        $affected = DB::table('usuario')\r\n                        ->where('usr_cod','=',$usr)\r\n                        ->update(['usr_pass' => $pass]);\r\n\r\n\r\n        return\r\n        View('resultado',['resultado'=>$affected]);\r\n    }\r\n\r\n\r\n    public function rep_detalle(Request $request)\r\n    {\r\n       /* $tipo=$request->input('tipo');\r\n        $fecha1=$request->input('f1');\r\n        $fecha2=$request->input('f2');*/\r\n\r\n        $sql=\"select * from movimiento where id_envio in (\r\n            select id_envio from guia where fecha_date between '2021-01-01' and '2021-01-19')\r\n            \";\r\n\r\n        $data=DB::select($sql);\r\n\r\n        return View('reporte_detalle',['data' => $data]);\r\n\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/API-Rastreo/app/Http/Controllers/Usr.php b/API-Rastreo/app/Http/Controllers/Usr.php
+--- a/API-Rastreo/app/Http/Controllers/Usr.php	(revision 95e9ecbfe14628d2c342ca271f08d16a9b75f6dd)
++++ b/API-Rastreo/app/Http/Controllers/Usr.php	(date 1611906800021)
+@@ -21,17 +21,17 @@
+         //$sql = "select * from chk_id";
+         //$sql = "select * from cliente";
+         //$sql = "select * from correlativo";
+-        //$sql = "select * from guia";
++        $sql = "select * from guia";
+         //$sql = "select * from manifiesto";
+-        //$sql = "select * from manifiesto_linea  where id_envio=92";
+-        $sql = "select * from mensajero";
++        //$sql = "select * from manifiesto_linea";
++        //$sql = "select * from mensajero";
+         //$sql = "select * from motivo";
+         //$sql = "select * from movimiento where id_movimiento=(select max(id_movimiento) from movimiento where id_envio=65)";
+         //$sql = "select * from orden";
+         //$sql = "select * from recurso";
+         //$sql = "select * from usuario";
+         //$sql = "select * from zona";
+-
++        //$sql='';
+         $datos=DB::select($sql);
+         return $datos;
+ 

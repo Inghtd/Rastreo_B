@@ -1,0 +1,300 @@
+<2021/12/04 14:00:44> barra lectura <------>A01480036E020056 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**el estado es diferente de 4**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:00:47> barra lectura <------>A01480036E020056 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**el estado es diferente de 4**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:02:11> barra lectura <------>a00600036e030027 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:04:31> barra lectura <------>a00600036e030027 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:04:47> barra lectura <------>a00600036e030027 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:07:58> barra lectura <------>A01480036E020056 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:07:58> barra lectura <------>a00600036e030027 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:08:34> barra lectura <------>A01480036E020056 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:08:34> barra lectura <------>a00600036e030027 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:08:36> barra lectura <------>A01480036E020056 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:08:36> barra lectura <------>a00600036e030027 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:08:50> barra lectura <------>A01480036E020056 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:08:50> barra lectura <------>a00600036e030027 proceso <------>Escaneo Despacho-2
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:09:20> barra lectura <------>A01480036E020056 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:09:21> barra lectura <------>a00600036e030027 proceso <------>Escaneo Despacho-2
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:09:48> barra lectura <------>A01480036E020056 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**el estado es diferente de 3**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:09:48> barra lectura <------>a00600036e030027 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:09:51> barra lectura <------>A01480036E020056 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**el estado es diferente de 3**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:09:51> barra lectura <------>a00600036e030027 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:14:35> barra lectura <------>A01480036E020056 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**el estado es diferente de 4**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:14:36> barra lectura <------>a00600036e030027 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:14:37> barra lectura <------>A01480036E020056 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**el estado es diferente de 4**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:14:37> barra lectura <------>a00600036e030027 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:14:40> barra lectura <------>A01480036E020056 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**el estado es diferente de 4**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 14:14:40> barra lectura <------>a00600036e030027 proceso <------>Escaneo Salida Agencias-4
+<-Resultado->**el estado es diferente de 4**
+stdClass Object
+(
+    [epc] => 61303036303030333665303330303237
+    [pc] => 3000
+    [codigo] => a00600036e030027
+    [isHeartBeat] => false
+)
+
+<2021/12/04 17:35:55> barra lectura <------>A01480036E020056 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+stdClass Object
+(
+    [epc] => 41303134383030333645303230303536
+    [pc] => 3000
+    [codigo] => A01480036E020056
+    [isHeartBeat] => false
+)
+
+<2021/12/04 17:35:56> barra lectura <------>A02530036E020123 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 41303235333030333645303230313233
+    [pc] => 3000
+    [codigo] => A02530036E020123
+    [isHeartBeat] => false
+)
+
+<2021/12/04 17:35:56> barra lectura <------>ba10000000000499 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 62613130303030303030303030343939
+    [pc] => 3000
+    [codigo] => ba10000000000499
+    [isHeartBeat] => false
+)
+
+<2021/12/04 17:35:56> barra lectura <------>ba10000000000523 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 62613130303030303030303030353233
+    [pc] => 3000
+    [codigo] => ba10000000000523
+    [isHeartBeat] => false
+)
+
+<2021/12/04 17:54:47> barra lectura <------>TEST1000001 proceso <------>Escaneo Ingreso-1
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 5445535431303030303031
+    [pc] => 3000
+    [codigo] => TEST1000001
+    [isHeartBeat] => false
+)
+

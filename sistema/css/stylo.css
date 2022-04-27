@@ -1,0 +1,197 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	scrollbar-face-color: #CCCCCC;
+	scrollbar-shadow-color: #000000;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #CC0000;
+	scrollbar-darkshadow-color: #CC0000;
+	scrollbar-track-color: #CC0000;
+	scrollbar-arrow-color: #000000;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.menubar_img {
+	line-height: normal;
+	vertical-align: middle;
+}
+
+a.gris:link {
+	color: #000000;
+}
+
+a.gris:visited {
+  color: #FF6600;
+}
+
+a.gris:hover {
+	text-decoration: underline;
+	color: #FF6600;
+
+}
+
+
+.textareabox {
+font-size: 10px;
+width: 416px;
+font-style: normal;
+font-family: Courier New, Arial, Helvetica, sans-serif;
+height: 300px
+}
+
+
+a.gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+
+a:visited {
+color: #a10101;
+text-decoration: none;
+}
+
+a:link {
+color: #000000
+}
+
+.bodylight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+}
+.bodydark {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	white-space: nowrap;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+	vertical-align: middle;
+}
+.bodydarklittle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #FFFFFF;
+}
+
+.style1 {
+font-weight: bold;
+font-size: small;
+FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif
+}
+
+.style2 {
+font-size: xx-small;
+color: #666666;
+font-family: Arial, Helvetica, sans-serif
+}
+
+.style3 {
+font-weight: bold;
+font-size: x-small;
+font-family: Geneva, Arial, Helvetica, sans-serif
+}
+
+.acuse {
+font-size: xxx-small;
+color: #666666;
+font-family: Geneva, Arial, Helvetica, sans-serif
+}
+
+
+.tblmenu {
+/*
+display: none;
+*/
+visibility: visible;
+}
+
+/*
+* html body .tblmenu {
+width: 100%;
+}
+*/
+
+.menuenc {
+font-weight: bold;
+font-size: small;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+background-color: #FE7800;
+width: 110px;
+height: 20px;
+text-align: center
+}
+
+.menuitm {
+font-weight: bold;
+font-size: x-small;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+background-color: #C14D00;
+width: 100px;
+height: 20px;
+}
+
+.opclnk {
+font-weight: bold;
+font-size: x-small;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+background-color: #CC934E;
+width: 70px;
+height: 20px;
+}
+
+.whiboltah {
+font-weight: bold;
+font-size: small;
+font-family: Tahoma, sans-serif;
+color: #FFFFFF
+}
+
+.textareabox {
+font-size: 10px;
+width: 416px;
+font-style: normal;
+font-family: Courier New, Arial, Helvetica, sans-serif;
+height: 300px
+}
+
+.button {
+font-size: 70%;
+background-image: url(../media/graybuttonBackground.gif);
+width: 60px;
+background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+height: 20px;
+background-color: transparent;
+text-align: center;
+text-decoration: none;
+cursor: pointer
+}
+
+.textbox {
+font-size: 9px;
+width: 50px;
+font-style: normal;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+height: 18px
+}
+.linea
+{
+background:url(../images/linea.jpg) repeat-y;
+width:650px;
+min-height:70px; /* for modern browsers */
+height:auto !important; /* for modern browsers */
+height:70px; /* for IE5.x and IE6 */
+background-color:#ffffff;
+float:left;
+}

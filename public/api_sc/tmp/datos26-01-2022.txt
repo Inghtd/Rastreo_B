@@ -1,0 +1,22 @@
+<2022/01/26 11:32:55> barra lectura <------> proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 
+    [pc] => 4000
+    [seenCount] => 72
+    [timeStamp] => 11/01/2022 16:44:37:956
+    [channelIndex] => 9
+)
+
+<2022/01/26 11:32:55> barra lectura <------>TEST200004 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 54455354323030303034
+    [pc] => no esta en base de datos
+    [seenCount] => 72
+    [timeStamp] => 11/01/2022 16:44:37:956
+    [channelIndex] => 9
+)
+

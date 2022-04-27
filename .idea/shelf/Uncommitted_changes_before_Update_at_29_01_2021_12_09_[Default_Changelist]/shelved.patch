@@ -1,0 +1,593 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6\" name=\"Default Changelist\" comment=\"login y db service\">\r\n      <change afterPath=\"$PROJECT_DIR$/no perder.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/sistema/vista/repor_ingresos1.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/sistema/vista/repor_ingresos1.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\">\r\n    <pharConfigPath>$PROJECT_DIR$/API-Rastreo/composer.json</pharConfigPath>\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Merge.Settings\">\r\n    <option name=\"BRANCH\" value=\"origin/master\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_TAGS\">\r\n      <GitPushTagMode>\r\n        <option name=\"argument\" value=\"--tags\" />\r\n        <option name=\"title\" value=\"All\" />\r\n      </GitPushTagMode>\r\n    </option>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"development\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/league/flysystem\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/league/mime-type-detection\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/nesbot/carbon\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/ramsey/collection\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/ramsey/uuid\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/vlucas/phpdotenv\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/dnoegel/php-xdg-base-dir\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/egulias/email-validator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/laravel/framework\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/laravel/sail\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/laravel/tinker\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/mockery/mockery\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/monolog/monolog\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/myclabs/deep-copy\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phar-io/manifest\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phar-io/version\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpspec/prophecy\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-code-coverage\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-file-iterator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-invoker\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-text-template\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/php-timer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpunit/phpunit\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/console\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/css-selector\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/deprecation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/error-handler\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/event-dispatcher-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/finder\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/http-client-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/http-foundation\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/http-kernel\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/mime\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-ctype\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-iconv\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-intl-grapheme\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-intl-idn\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-intl-normalizer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-mbstring\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-php72\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-php73\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/polyfill-php80\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/process\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/routing\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/service-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/string\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/translation\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/translation-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/symfony/var-dumper\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/theseer/tokenizer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/doctrine/inflector\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/doctrine/instantiator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/doctrine/lexer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/fakerphp/faker\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/hamcrest/hamcrest-php\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/fideloper/proxy\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/fruitcake/laravel-cors\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpoption/phpoption\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/ralouphie/getallheaders\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/cli-parser\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/code-unit\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/code-unit-reverse-lookup\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/comparator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/complexity\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/diff\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/environment\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/exporter\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/global-state\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/lines-of-code\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/object-enumerator\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/object-reflector\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/recursion-context\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/resource-operations\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/type\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/sebastian/version\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/webmozart/assert\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/guzzlehttp/guzzle\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/guzzlehttp/promises\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/guzzlehttp/psr7\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/nunomaduro/collision\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/swiftmailer/swiftmailer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/tijsverkoyen/css-to-inline-styles\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/dragonmantank/cron-expression\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpdocumentor/reflection-common\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpdocumentor/reflection-docblock\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/phpdocumentor/type-resolver\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/graham-campbell/result-type\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/composer\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/container\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/event-dispatcher\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/http-client\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/http-message\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/log\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psr/simple-cache\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/psy/psysh\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/filp/whoops\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/opis/closure\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/voku/portable-ascii\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/asm89/stack-cors\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/brick/math\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/nikic/php-parser\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/facade/flare-client-php\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/facade/ignition\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/facade/ignition-contracts\" />\r\n      <path value=\"$PROJECT_DIR$/API-Rastreo/vendor/league/commonmark\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1lrOzb6MmesgRMqSTaoMF1lbzUe\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"ChangesTree.GroupingKeys\" value=\"\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.standard\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.standard\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.standard\" value=\"\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\xampp\\htdocs\\rastreoMG\\public\\api\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\rastreoMG\" />\r\n      <recent name=\"C:\\xampp\\htdocs\\rastreoMG\\sistema\\vista\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\xampp\\htdocs\\proyectos\\rastreo\\sistema\\vista\\reporte_1.php\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1608352006529</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1608352006529</updated>\r\n      <workItem from=\"1608352009853\" duration=\"5824000\" />\r\n      <workItem from=\"1608570733656\" duration=\"12959000\" />\r\n      <workItem from=\"1608741308922\" duration=\"10254000\" />\r\n      <workItem from=\"1608999619331\" duration=\"7935000\" />\r\n      <workItem from=\"1609342303301\" duration=\"21096000\" />\r\n      <workItem from=\"1609884549289\" duration=\"23112000\" />\r\n      <workItem from=\"1610139620073\" duration=\"31043000\" />\r\n      <workItem from=\"1610555861261\" duration=\"2228000\" />\r\n      <workItem from=\"1610627832255\" duration=\"704000\" />\r\n      <workItem from=\"1610719082630\" duration=\"5512000\" />\r\n      <workItem from=\"1610906346114\" duration=\"5007000\" />\r\n      <workItem from=\"1611021460052\" duration=\"6326000\" />\r\n      <workItem from=\"1611065655977\" duration=\"18607000\" />\r\n      <workItem from=\"1611325558378\" duration=\"2511000\" />\r\n      <workItem from=\"1611533163086\" duration=\"1305000\" />\r\n      <workItem from=\"1611796594229\" duration=\"7598000\" />\r\n      <workItem from=\"1611845447161\" duration=\"1869000\" />\r\n      <workItem from=\"1611939836626\" duration=\"2674000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test1\">\r\n      <created>1608352414484</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608352414484</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test1\">\r\n      <created>1608352431387</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608352431387</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Corrección agencias\">\r\n      <created>1608397677312</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608397677312</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Corrección formulario guias\">\r\n      <created>1608668077408</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608668077408</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"arv1\">\r\n      <created>1608749397758</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608749397758</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"arv1\">\r\n      <created>1608782836845</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1608782836846</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"arv2\">\r\n      <created>1609007981080</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609007981080</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"mov1\">\r\n      <created>1609364545717</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609364545717</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"mov1.1\">\r\n      <created>1609547219633</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609547219649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"informe1\">\r\n      <created>1609974494695</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609974494695</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"informe1.1\">\r\n      <created>1609975524055</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609975524055</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"informe1.2\">\r\n      <created>1610141158986</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610141158986</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"debug1\">\r\n      <created>1610314959533</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610314959533</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"debug2\">\r\n      <created>1610378751649</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610378751649</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Cambios Xajax 1\">\r\n      <created>1610731104164</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1610731104164</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"Cambios Xajax 2\">\r\n      <created>1611025976995</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611025976995</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"Cambios Xajax 2\">\r\n      <created>1611027086769</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611027086769</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"Cambios Xajax 3\">\r\n      <created>1611028328365</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611028328365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"Cambios Xajax 3\">\r\n      <created>1611091073865</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611091073865</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"Cambios Xajax 3\">\r\n      <created>1611091156757</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611091156757</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"Cambios informe1.3\">\r\n      <created>1611094928482</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611094928482</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"Cambios informe1.3\">\r\n      <created>1611098410991</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611098410991</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"Cambios informe1.3\">\r\n      <created>1611098560746</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611098560746</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"Cambios login1\">\r\n      <created>1611797809872</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611797809872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"Cambios login2\">\r\n      <created>1611799324938</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611799324938</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"Cambios login3\">\r\n      <created>1611800170409</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611800170409</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"Cambios api1\">\r\n      <created>1611802105592</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611802105592</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"Cambios api1\">\r\n      <created>1611803560398</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611803560398</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"Cambios api2\">\r\n      <created>1611845473042</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611845473042</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"Cambios api2\">\r\n      <created>1611846570376</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611846570376</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"Cambios informe1.3\">\r\n      <created>1611867596550</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611867596550</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"cambio de usuarios\">\r\n      <created>1611870370017</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611870370017</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"env\">\r\n      <created>1611898926941</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611898926941</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"login y db service\">\r\n      <created>1611935357441</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611935357441</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"login y db service\">\r\n      <created>1611935575793</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611935575793</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"login y db service\">\r\n      <created>1611936305344</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611936305344</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"login y db service\">\r\n      <created>1611937126147</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611937126147</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"login y db service\">\r\n      <created>1611939253644</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1611939253644</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"39\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"development\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"master\" />\r\n                </option>\r\n              </RecentGroup>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"origin/development\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"test1\" />\r\n    <MESSAGE value=\"Corrección agencias\" />\r\n    <MESSAGE value=\"Corrección formulario guias\" />\r\n    <MESSAGE value=\"arv1\" />\r\n    <MESSAGE value=\"arv2\" />\r\n    <MESSAGE value=\"mov1\" />\r\n    <MESSAGE value=\"mov1.1\" />\r\n    <MESSAGE value=\"informe1\" />\r\n    <MESSAGE value=\"informe1.1\" />\r\n    <MESSAGE value=\"informe1.2\" />\r\n    <MESSAGE value=\"debug1\" />\r\n    <MESSAGE value=\"debug2\" />\r\n    <MESSAGE value=\"Cambios Xajax 1\" />\r\n    <MESSAGE value=\"Cambios Xajax 2\" />\r\n    <MESSAGE value=\"Cambios Xajax 3\" />\r\n    <MESSAGE value=\"Cambios login1\" />\r\n    <MESSAGE value=\"Cambios login2\" />\r\n    <MESSAGE value=\"Cambios login3\" />\r\n    <MESSAGE value=\"Cambios api1\" />\r\n    <MESSAGE value=\"Cambios api2\" />\r\n    <MESSAGE value=\"Cambios informe1.3\" />\r\n    <MESSAGE value=\"cambio de usuarios\" />\r\n    <MESSAGE value=\"env\" />\r\n    <MESSAGE value=\"login y db service\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"login y db service\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"javascript\">\r\n          <url>file://$PROJECT_DIR$/sistema/vista/funciones.js</url>\r\n          <line>225</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e1c80d97ceba7dab975f772ed1b2da186eec9b35)
++++ b/.idea/workspace.xml	(date 1611943734030)
+@@ -4,7 +4,7 @@
+     <list default="true" id="cc3b8768-a9f3-47a4-a8fb-e29f3e7d2ba6" name="Default Changelist" comment="login y db service">
+       <change afterPath="$PROJECT_DIR$/no perder.php" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/sistema/vista/repor_ingresos1.php" beforeDir="false" afterPath="$PROJECT_DIR$/sistema/vista/repor_ingresos1.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/public/api/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/api/login.php" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -217,7 +217,7 @@
+       <workItem from="1611533163086" duration="1305000" />
+       <workItem from="1611796594229" duration="7598000" />
+       <workItem from="1611845447161" duration="1869000" />
+-      <workItem from="1611939836626" duration="2674000" />
++      <workItem from="1611939836626" duration="3860000" />
+     </task>
+     <task id="LOCAL-00001" summary="test1">
+       <created>1608352414484</created>
+@@ -485,7 +485,28 @@
+       <option name="project" value="LOCAL" />
+       <updated>1611939253644</updated>
+     </task>
+-    <option name="localTasksCounter" value="39" />
++    <task id="LOCAL-00039" summary="reporte">
++      <created>1611942560241</created>
++      <option name="number" value="00039" />
++      <option name="presentableId" value="LOCAL-00039" />
++      <option name="project" value="LOCAL" />
++      <updated>1611942560241</updated>
++    </task>
++    <task id="LOCAL-00040" summary="reporte">
++      <created>1611943289072</created>
++      <option name="number" value="00040" />
++      <option name="presentableId" value="LOCAL-00040" />
++      <option name="project" value="LOCAL" />
++      <updated>1611943289072</updated>
++    </task>
++    <task id="LOCAL-00041" summary="reporte">
++      <created>1611943353639</created>
++      <option name="number" value="00041" />
++      <option name="presentableId" value="LOCAL-00041" />
++      <option name="project" value="LOCAL" />
++      <updated>1611943353639</updated>
++    </task>
++    <option name="localTasksCounter" value="42" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -561,14 +582,15 @@
+     <MESSAGE value="cambio de usuarios" />
+     <MESSAGE value="env" />
+     <MESSAGE value="login y db service" />
+-    <option name="LAST_COMMIT_MESSAGE" value="login y db service" />
++    <MESSAGE value="reporte" />
++    <option name="LAST_COMMIT_MESSAGE" value="reporte" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" type="javascript">
+           <url>file://$PROJECT_DIR$/sistema/vista/funciones.js</url>
+-          <line>225</line>
++          <line>231</line>
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>
+       </breakpoints>
+Index: no perder.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/no perder.php b/no perder.php
+new file mode 100644
+--- /dev/null	(date 1611942569637)
++++ b/no perder.php	(date 1611942569637)
+@@ -0,0 +1,507 @@
++<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
++
++<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
++
++
++<table id="example" class="display nowrap" style="width:100%">
++    <thead>
++    <tr>
++        <th>Name</th>
++        <th>Position</th>
++        <th>Office</th>
++        <th>Age</th>
++        <th>Start date</th>
++        <th>Salary</th>
++    </tr>
++    </thead>
++    <tbody>
++    <tr>
++        <td>Tiger Nixon</td>
++        <td>System Architect</td>
++        <td>Edinburgh</td>
++        <td>61</td>
++        <td>2011/04/25</td>
++        <td>$320,800</td>
++    </tr>
++    <tr>
++        <td>Garrett Winters</td>
++        <td>Accountant</td>
++        <td>Tokyo</td>
++        <td>63</td>
++        <td>2011/07/25</td>
++        <td>$170,750</td>
++    </tr>
++    <tr>
++        <td>Ashton Cox</td>
++        <td>Junior Technical Author</td>
++        <td>San Francisco</td>
++        <td>66</td>
++        <td>2009/01/12</td>
++        <td>$86,000</td>
++    </tr>
++    <tr>
++        <td>Cedric Kelly</td>
++        <td>Senior Javascript Developer</td>
++        <td>Edinburgh</td>
++        <td>22</td>
++        <td>2012/03/29</td>
++        <td>$433,060</td>
++    </tr>
++    <tr>
++        <td>Airi Satou</td>
++        <td>Accountant</td>
++        <td>Tokyo</td>
++        <td>33</td>
++        <td>2008/11/28</td>
++        <td>$162,700</td>
++    </tr>
++    <tr>
++        <td>Brielle Williamson</td>
++        <td>Integration Specialist</td>
++        <td>New York</td>
++        <td>61</td>
++        <td>2012/12/02</td>
++        <td>$372,000</td>
++    </tr>
++    <tr>
++        <td>Herrod Chandler</td>
++        <td>Sales Assistant</td>
++        <td>San Francisco</td>
++        <td>59</td>
++        <td>2012/08/06</td>
++        <td>$137,500</td>
++    </tr>
++    <tr>
++        <td>Rhona Davidson</td>
++        <td>Integration Specialist</td>
++        <td>Tokyo</td>
++        <td>55</td>
++        <td>2010/10/14</td>
++        <td>$327,900</td>
++    </tr>
++    <tr>
++        <td>Colleen Hurst</td>
++        <td>Javascript Developer</td>
++        <td>San Francisco</td>
++        <td>39</td>
++        <td>2009/09/15</td>
++        <td>$205,500</td>
++    </tr>
++    <tr>
++        <td>Sonya Frost</td>
++        <td>Software Engineer</td>
++        <td>Edinburgh</td>
++        <td>23</td>
++        <td>2008/12/13</td>
++        <td>$103,600</td>
++    </tr>
++    <tr>
++        <td>Jena Gaines</td>
++        <td>Office Manager</td>
++        <td>London</td>
++        <td>30</td>
++        <td>2008/12/19</td>
++        <td>$90,560</td>
++    </tr>
++    <tr>
++        <td>Quinn Flynn</td>
++        <td>Support Lead</td>
++        <td>Edinburgh</td>
++        <td>22</td>
++        <td>2013/03/03</td>
++        <td>$342,000</td>
++    </tr>
++    <tr>
++        <td>Charde Marshall</td>
++        <td>Regional Director</td>
++        <td>San Francisco</td>
++        <td>36</td>
++        <td>2008/10/16</td>
++        <td>$470,600</td>
++    </tr>
++    <tr>
++        <td>Haley Kennedy</td>
++        <td>Senior Marketing Designer</td>
++        <td>London</td>
++        <td>43</td>
++        <td>2012/12/18</td>
++        <td>$313,500</td>
++    </tr>
++    <tr>
++        <td>Tatyana Fitzpatrick</td>
++        <td>Regional Director</td>
++        <td>London</td>
++        <td>19</td>
++        <td>2010/03/17</td>
++        <td>$385,750</td>
++    </tr>
++    <tr>
++        <td>Michael Silva</td>
++        <td>Marketing Designer</td>
++        <td>London</td>
++        <td>66</td>
++        <td>2012/11/27</td>
++        <td>$198,500</td>
++    </tr>
++    <tr>
++        <td>Paul Byrd</td>
++        <td>Chief Financial Officer (CFO)</td>
++        <td>New York</td>
++        <td>64</td>
++        <td>2010/06/09</td>
++        <td>$725,000</td>
++    </tr>
++    <tr>
++        <td>Gloria Little</td>
++        <td>Systems Administrator</td>
++        <td>New York</td>
++        <td>59</td>
++        <td>2009/04/10</td>
++        <td>$237,500</td>
++    </tr>
++    <tr>
++        <td>Bradley Greer</td>
++        <td>Software Engineer</td>
++        <td>London</td>
++        <td>41</td>
++        <td>2012/10/13</td>
++        <td>$132,000</td>
++    </tr>
++    <tr>
++        <td>Dai Rios</td>
++        <td>Personnel Lead</td>
++        <td>Edinburgh</td>
++        <td>35</td>
++        <td>2012/09/26</td>
++        <td>$217,500</td>
++    </tr>
++    <tr>
++        <td>Jenette Caldwell</td>
++        <td>Development Lead</td>
++        <td>New York</td>
++        <td>30</td>
++        <td>2011/09/03</td>
++        <td>$345,000</td>
++    </tr>
++    <tr>
++        <td>Yuri Berry</td>
++        <td>Chief Marketing Officer (CMO)</td>
++        <td>New York</td>
++        <td>40</td>
++        <td>2009/06/25</td>
++        <td>$675,000</td>
++    </tr>
++    <tr>
++        <td>Caesar Vance</td>
++        <td>Pre-Sales Support</td>
++        <td>New York</td>
++        <td>21</td>
++        <td>2011/12/12</td>
++        <td>$106,450</td>
++    </tr>
++    <tr>
++        <td>Doris Wilder</td>
++        <td>Sales Assistant</td>
++        <td>Sydney</td>
++        <td>23</td>
++        <td>2010/09/20</td>
++        <td>$85,600</td>
++    </tr>
++    <tr>
++        <td>Angelica Ramos</td>
++        <td>Chief Executive Officer (CEO)</td>
++        <td>London</td>
++        <td>47</td>
++        <td>2009/10/09</td>
++        <td>$1,200,000</td>
++    </tr>
++    <tr>
++        <td>Gavin Joyce</td>
++        <td>Developer</td>
++        <td>Edinburgh</td>
++        <td>42</td>
++        <td>2010/12/22</td>
++        <td>$92,575</td>
++    </tr>
++    <tr>
++        <td>Jennifer Chang</td>
++        <td>Regional Director</td>
++        <td>Singapore</td>
++        <td>28</td>
++        <td>2010/11/14</td>
++        <td>$357,650</td>
++    </tr>
++    <tr>
++        <td>Brenden Wagner</td>
++        <td>Software Engineer</td>
++        <td>San Francisco</td>
++        <td>28</td>
++        <td>2011/06/07</td>
++        <td>$206,850</td>
++    </tr>
++    <tr>
++        <td>Fiona Green</td>
++        <td>Chief Operating Officer (COO)</td>
++        <td>San Francisco</td>
++        <td>48</td>
++        <td>2010/03/11</td>
++        <td>$850,000</td>
++    </tr>
++    <tr>
++        <td>Shou Itou</td>
++        <td>Regional Marketing</td>
++        <td>Tokyo</td>
++        <td>20</td>
++        <td>2011/08/14</td>
++        <td>$163,000</td>
++    </tr>
++    <tr>
++        <td>Michelle House</td>
++        <td>Integration Specialist</td>
++        <td>Sydney</td>
++        <td>37</td>
++        <td>2011/06/02</td>
++        <td>$95,400</td>
++    </tr>
++    <tr>
++        <td>Suki Burks</td>
++        <td>Developer</td>
++        <td>London</td>
++        <td>53</td>
++        <td>2009/10/22</td>
++        <td>$114,500</td>
++    </tr>
++    <tr>
++        <td>Prescott Bartlett</td>
++        <td>Technical Author</td>
++        <td>London</td>
++        <td>27</td>
++        <td>2011/05/07</td>
++        <td>$145,000</td>
++    </tr>
++    <tr>
++        <td>Gavin Cortez</td>
++        <td>Team Leader</td>
++        <td>San Francisco</td>
++        <td>22</td>
++        <td>2008/10/26</td>
++        <td>$235,500</td>
++    </tr>
++    <tr>
++        <td>Martena Mccray</td>
++        <td>Post-Sales support</td>
++        <td>Edinburgh</td>
++        <td>46</td>
++        <td>2011/03/09</td>
++        <td>$324,050</td>
++    </tr>
++    <tr>
++        <td>Unity Butler</td>
++        <td>Marketing Designer</td>
++        <td>San Francisco</td>
++        <td>47</td>
++        <td>2009/12/09</td>
++        <td>$85,675</td>
++    </tr>
++    <tr>
++        <td>Howard Hatfield</td>
++        <td>Office Manager</td>
++        <td>San Francisco</td>
++        <td>51</td>
++        <td>2008/12/16</td>
++        <td>$164,500</td>
++    </tr>
++    <tr>
++        <td>Hope Fuentes</td>
++        <td>Secretary</td>
++        <td>San Francisco</td>
++        <td>41</td>
++        <td>2010/02/12</td>
++        <td>$109,850</td>
++    </tr>
++    <tr>
++        <td>Vivian Harrell</td>
++        <td>Financial Controller</td>
++        <td>San Francisco</td>
++        <td>62</td>
++        <td>2009/02/14</td>
++        <td>$452,500</td>
++    </tr>
++    <tr>
++        <td>Timothy Mooney</td>
++        <td>Office Manager</td>
++        <td>London</td>
++        <td>37</td>
++        <td>2008/12/11</td>
++        <td>$136,200</td>
++    </tr>
++    <tr>
++        <td>Jackson Bradshaw</td>
++        <td>Director</td>
++        <td>New York</td>
++        <td>65</td>
++        <td>2008/09/26</td>
++        <td>$645,750</td>
++    </tr>
++    <tr>
++        <td>Olivia Liang</td>
++        <td>Support Engineer</td>
++        <td>Singapore</td>
++        <td>64</td>
++        <td>2011/02/03</td>
++        <td>$234,500</td>
++    </tr>
++    <tr>
++        <td>Bruno Nash</td>
++        <td>Software Engineer</td>
++        <td>London</td>
++        <td>38</td>
++        <td>2011/05/03</td>
++        <td>$163,500</td>
++    </tr>
++    <tr>
++        <td>Sakura Yamamoto</td>
++        <td>Support Engineer</td>
++        <td>Tokyo</td>
++        <td>37</td>
++        <td>2009/08/19</td>
++        <td>$139,575</td>
++    </tr>
++    <tr>
++        <td>Thor Walton</td>
++        <td>Developer</td>
++        <td>New York</td>
++        <td>61</td>
++        <td>2013/08/11</td>
++        <td>$98,540</td>
++    </tr>
++    <tr>
++        <td>Finn Camacho</td>
++        <td>Support Engineer</td>
++        <td>San Francisco</td>
++        <td>47</td>
++        <td>2009/07/07</td>
++        <td>$87,500</td>
++    </tr>
++    <tr>
++        <td>Serge Baldwin</td>
++        <td>Data Coordinator</td>
++        <td>Singapore</td>
++        <td>64</td>
++        <td>2012/04/09</td>
++        <td>$138,575</td>
++    </tr>
++    <tr>
++        <td>Zenaida Frank</td>
++        <td>Software Engineer</td>
++        <td>New York</td>
++        <td>63</td>
++        <td>2010/01/04</td>
++        <td>$125,250</td>
++    </tr>
++    <tr>
++        <td>Zorita Serrano</td>
++        <td>Software Engineer</td>
++        <td>San Francisco</td>
++        <td>56</td>
++        <td>2012/06/01</td>
++        <td>$115,000</td>
++    </tr>
++    <tr>
++        <td>Jennifer Acosta</td>
++        <td>Junior Javascript Developer</td>
++        <td>Edinburgh</td>
++        <td>43</td>
++        <td>2013/02/01</td>
++        <td>$75,650</td>
++    </tr>
++    <tr>
++        <td>Cara Stevens</td>
++        <td>Sales Assistant</td>
++        <td>New York</td>
++        <td>46</td>
++        <td>2011/12/06</td>
++        <td>$145,600</td>
++    </tr>
++    <tr>
++        <td>Hermione Butler</td>
++        <td>Regional Director</td>
++        <td>London</td>
++        <td>47</td>
++        <td>2011/03/21</td>
++        <td>$356,250</td>
++    </tr>
++    <tr>
++        <td>Lael Greer</td>
++        <td>Systems Administrator</td>
++        <td>London</td>
++        <td>21</td>
++        <td>2009/02/27</td>
++        <td>$103,500</td>
++    </tr>
++    <tr>
++        <td>Jonas Alexander</td>
++        <td>Developer</td>
++        <td>San Francisco</td>
++        <td>30</td>
++        <td>2010/07/14</td>
++        <td>$86,500</td>
++    </tr>
++    <tr>
++        <td>Shad Decker</td>
++        <td>Regional Director</td>
++        <td>Edinburgh</td>
++        <td>51</td>
++        <td>2008/11/13</td>
++        <td>$183,000</td>
++    </tr>
++    <tr>
++        <td>Michael Bruce</td>
++        <td>Javascript Developer</td>
++        <td>Singapore</td>
++        <td>29</td>
++        <td>2011/06/27</td>
++        <td>$183,000</td>
++    </tr>
++    <tr>
++        <td>Donna Snider</td>
++        <td>Customer Support</td>
++        <td>New York</td>
++        <td>27</td>
++        <td>2011/01/25</td>
++        <td>$112,000</td>
++    </tr>
++    </tbody>
++    <tfoot>
++    <tr>
++        <th>Name</th>
++        <th>Position</th>
++        <th>Office</th>
++        <th>Age</th>
++        <th>Start date</th>
++        <th>Salary</th>
++    </tr>
++    </tfoot>
++</table>
++
++<script>
++    $(document).ready(function() {
++        $('#example').DataTable( {
++            dom: 'Bfrtip',
++            buttons: [
++                'copy', 'csv', 'excel', 'pdf', 'print'
++            ]
++        } );
++    } );
++
++    In addition to the above code
++</script>
++
++
++
++
++
++
++
++
++

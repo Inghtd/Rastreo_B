@@ -1,0 +1,25 @@
+.input {
+    border: 1px solid silver;
+    background:#F1F1F1;
+	}
+.input:hover {
+    border: 1px solid #f1f1f1;
+    background: #F1F1F1;
+}
+.button {
+    border: 1px solid #006;
+    background: #ccf;
+}
+.button:hover {
+    border: 1px solid #f00;
+    background: #eef;
+}
+label {
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 2px 4px 6px 4px;
+    text-align: right;
+}
+br { clear: left; }
+input.radio { border-width:0; }

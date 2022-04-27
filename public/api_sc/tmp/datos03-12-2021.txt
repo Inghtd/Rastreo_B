@@ -1,0 +1,275 @@
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000162 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000954 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A01810036E020055 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000160 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000159 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000155 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000164 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000161 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A02020036E020098 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000974 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000157 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000985 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A02800036E020110 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000875 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A02000036E090024 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A02570036E010083 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000786 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>A03170036E090025 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000787 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:04> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:05> barra lectura <------>A00630036E090120 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:05> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:05> barra lectura <------>BA10000000000382 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:05> barra lectura <------>A02130036E010114 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:05> barra lectura <------>BA10000000000266 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:05> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A02270036E010119 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A01940036E010150 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000888 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000755 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000872 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A01480036E090056 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000786 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A02020036E020098 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000954 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000162 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000155 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000161 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000164 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000974 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A02800036E020110 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>BA10000000000875 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A02570036E010083 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:15> barra lectura <------>A03170036E090025 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000787 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000985 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>A00630036E090120 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000160 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000159 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>A02130036E010114 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000382 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>BA10000000000786 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:16> barra lectura <------>A01810036E090055 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>BA10000000000157 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>A02000036E090024 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>BA10000000000266 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>BA10000000000755 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>BA10000000000888 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>A02270036E010119 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>A01940036E010150 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>A02020036E020098 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>BA10000000000872 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:26> barra lectura <------>A01480036E090056 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000164 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000974 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000954 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000161 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000155 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000162 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000159 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A02570036E010083 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000875 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A03170036E090025 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000985 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000787 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A00630036E090120 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A02800036E020110 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000160 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000786 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A01810036E020055 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A02130036E010114 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000786 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000163 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:27> barra lectura <------>BA10000000000382 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02000036E090024 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000157 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000266 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02020036E020098 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02270036E010119 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000872 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A00670036G010095 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000954 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000164 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000974 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000161 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000155 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000162 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02570036E010083 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000985 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000817 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A00630036E090120 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000787 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000159 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000160 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02800036E020110 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A03170036E090025 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000875 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000888 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A01810036E090055 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000786 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>BA10000000000382 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02130036E010114 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A01280036E090047 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A01940036E010150 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 10:24:38> barra lectura <------>A02000036E090024 proceso <------>Escaneo Ingreso-1
+<-Resultado->**el estado es diferente de 1**
+<2021/12/03 11:25:26> barra lectura <------>BA10000000000181 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 42413130303030303030303030313831
+    [pc] => 3000
+    [antennaPort] => 1
+    [peakRssi] => -48
+    [seenCount] => 2
+    [timeStamp] => 03/12/20201 09:55:2564
+    [phase] => 0.00
+    [channelIndex] => 1
+    [isHeartBeat] => false
+)
+

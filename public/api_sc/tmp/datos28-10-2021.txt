@@ -1,0 +1,60 @@
+<2021/10/28 14:03:28> barra lectura <------>A00630036G010120 proceso <------>Escaneo Ingreso
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 41303036333030333647303130313230
+    [pc] => 3000
+    [antennaPort] => 1
+    [peakRssi] => -58
+    [seenCount] => 4
+    [timeStamp] => 27/10/202017: 7: 23: 67
+    [phase] => 0.00
+    [channelIndex] => 1
+    [isHeartBeat] => false
+)
+
+<2021/10/28 14:03:29> barra lectura <------>A00630036G010120 proceso <------>Escaneo Ingreso
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 41303036333030333647303130313230
+    [pc] => 3000
+    [antennaPort] => 1
+    [peakRssi] => -48
+    [seenCount] => 2
+    [timeStamp] => 27/30/20201 09:30:2564
+    [phase] => 0.00
+    [channelIndex] => 1
+    [isHeartBeat] => false
+)
+
+<2021/10/28 14:28:40> barra lectura <------>A00630036G010120 proceso <------>Escaneo Despacho-2
+<-Resultado->**Proceso de escaneo de bolsa ejecutado a la perfeccion.**
+stdClass Object
+(
+    [epc] => 41303036333030333647303130313230
+    [pc] => 3000
+    [antennaPort] => 1
+    [peakRssi] => -58
+    [seenCount] => 4
+    [timeStamp] => 27/10/202017: 7: 23: 67
+    [phase] => 0.00
+    [channelIndex] => 1
+    [isHeartBeat] => false
+)
+
+<2021/10/28 14:28:40> barra lectura <------>A00630036G010120 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 41303036333030333647303130313230
+    [pc] => 3000
+    [antennaPort] => 1
+    [peakRssi] => -48
+    [seenCount] => 2
+    [timeStamp] => 27/30/20201 09:30:2564
+    [phase] => 0.00
+    [channelIndex] => 1
+    [isHeartBeat] => false
+)
+

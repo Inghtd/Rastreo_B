@@ -1,0 +1,330 @@
+<2021/12/17 08:45:27> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:45:27> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:45:27> barra lectura <------>test0156 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:55:57> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:55:57> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:55:58> barra lectura <------>test0156 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:59:12> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:59:12> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 08:59:13> barra lectura <------>test0156 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:02:21> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:02:21> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:02:21> barra lectura <------>test0156 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:04:42> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:04:42> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:04:42> barra lectura <------>test0156 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:06:21> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:06:21> barra lectura <------>test01 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 09:06:21> barra lectura <------>test0156 proceso <------>Escaneo Despacho-2
+<-Resultado->**el estado es diferente de 2**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 14:49:28> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 14:49:28> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 14:49:28> barra lectura <------>test0156 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 14:50:04> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 14:50:04> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 14:50:04> barra lectura <------>test0156 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 15:16:28> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 15:16:28> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 15:16:28> barra lectura <------>test0156 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
+<2021/12/17 15:28:07> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 25
+    [timeStamp] => 15/12/2021 14:11:14:646
+    [channelIndex] => 29
+)
+
+<2021/12/17 15:28:07> barra lectura <------>test01 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 746573743031
+    [pc] => 4000
+    [seenCount] => 9
+    [timeStamp] => 15/12/2021 14:11:14:706
+    [channelIndex] => 29
+)
+
+<2021/12/17 15:28:07> barra lectura <------>test0156 proceso <------>Escaneo Recepcion Departamentos-3
+<-Resultado->**Array**
+stdClass Object
+(
+    [epc] => 7465737430313536
+    [pc] => 4000
+    [seenCount] => 15
+    [timeStamp] => 15/12/2021 14:11:14:796
+    [channelIndex] => 29
+)
+
